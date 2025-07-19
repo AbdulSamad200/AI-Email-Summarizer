@@ -1,0 +1,26 @@
+[project]
+name = "crew-email-summarizer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AbdulSamad200", email = "141349360+AbdulSamad200@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "crewai>=0.134.0",
+    "litellm>=1.72.0",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.46.1",
+    "crewai_tools",
+    "chromadb>=1.0.13",
+    "tokenizers>=0.21.2",
+    "transformers>=4.53.2",
+]
+
+[project.scripts]
+crew-email-summarizer = "crew_email_summarizer:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

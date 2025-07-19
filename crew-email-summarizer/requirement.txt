@@ -1,0 +1,17 @@
+# Compatible requirements that avoid version conflicts
+crewai>=0.140.0
+crewai-tools>=0.51.1
+litellm>=1.72.0
+streamlit>=1.46.1
+python-dotenv>=1.1.1
+
+# Compatible versions to avoid conflicts
+chromadb>=0.5.23,<0.6.0
+tokenizers>=0.13.2,<=0.20.3
+transformers>=4.35.0,<4.53.0
+numpy>=1.24.0,<2.0.0
+requests>=2.31.0
+pydantic>=2.0.0,<2.11.0
+
+# Additional utilities
+typing-extensions>=4.8.0    
